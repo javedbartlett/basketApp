@@ -19,7 +19,7 @@ To view the application, navigate to `http://localhost:4200/`.
 
 ## Usage
 
-1. Navigate to cart view by clicking the cart icon on the top right of the page.
+1. Navigate to cart view by clicking the cart icon at the top right of the page.
 
 2. Choose a predefined basket
 
