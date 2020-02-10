@@ -36,7 +36,7 @@ Run `ng test` to execute the unit tests via Karma
 
 ## Unit test results
 
-Note - I would've had a lot more test coverage on a real application.
+Note - I would've had a lot more test coverage on a live application.
 
 
 <img src="https://i.imgur.com/m23FgP6.png=250x" alt="image of unit test results" width="300"/>
