@@ -38,4 +38,5 @@ Run `ng test` to execute the unit tests via Karma
 
 Note - I would've had a lot more test coverage on a real application.
 
-![image of unit test results](https://i.imgur.com/m23FgP6.png)
+
+<img src="https://i.imgur.com/m23FgP6.png=250x" alt="image of unit test results" width="300"/>
