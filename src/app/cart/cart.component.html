@@ -1,0 +1,27 @@
+<div *ngIf="basket; else noBasket">
+  <hr />
+  <h3>Shopping Cart</h3>
+
+  <hr />
+  <div class="container-fluid">
+    <div class="row mt-4" *ngFor="let item of basket.items">
+      <div class="offset-0 col-md-2"><img [src]="item.image"/></div>
+      <div class="col-md-1">Qty {{item.qty}}</div>
+      <div class="col-md-4" >{{item.title}}</div>
+      <div class="col-md-1">{{item.price | currency}}</div>
+      <div class="offset-1 col-md-2 small">{{getFlags(item)}}</div>
+    </div>
+  </div>
+  <hr />
+  <div>
+    <a class="btn btn-primary mt-4 mb-4 offset-9"  (click)="gotoCheckout()">Proceed to Checkout</a>
+  </div>
+</div>
+
+<!--Demonstrate ngelse-->
+<ng-template #noBasket>
+  <div class="container-fluid">
+  No basket selected, please choose a basket
+  </div>
+</ng-template>
+

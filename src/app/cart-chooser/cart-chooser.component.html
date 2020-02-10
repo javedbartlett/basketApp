@@ -1,0 +1,10 @@
+<div>
+<label class="basketLabel mr-1">Basket: </label>
+
+<select formControlName="basketName" (change)="changeBasket($event)">
+  <option value="">Choose basket</option>
+  <option *ngFor="let name of basketNames">{{name}}</option>
+</select>
+
+<app-cart [basket]="basket"></app-cart>
+</div>

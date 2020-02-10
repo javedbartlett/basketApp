@@ -1,0 +1,6 @@
+@import "~bootstrap";
+
+.header {
+  @extend .bg-dark;
+  @extend .text-light
+}
