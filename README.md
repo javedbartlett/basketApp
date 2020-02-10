@@ -4,6 +4,11 @@ This is a simple checkout app created using Angular by Javed Bartlett.
 
 The purpose of this project was to create an application that prints out the receipt details for predefined shopping baskets.
 
+<img src="https://i.imgur.com/GuDb8Sy.png)" alt="Image of Cart Page" width="300"/>
+
+<img src="https://i.imgur.com/eAmmLHq.png" alt="Image Checkout Page" width="300"/>
+
+
 
 ## Setup
 
