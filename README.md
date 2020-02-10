@@ -33,3 +33,9 @@ Run `ng test` to execute the unit tests via Karma
 ## Tax Calculation Tests
 
 ![Image of tax calculation spreadsheet](https://i.imgur.com/sVmKLeC.png)
+
+## Unit test results
+
+Note - I would've had a lot more test coverage on a real application.
+
+![image of unit test results](https://i.imgur.com/m23FgP6.png)
